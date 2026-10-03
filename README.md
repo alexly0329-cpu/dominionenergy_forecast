@@ -1,4 +1,4 @@
-dc-load-forecast/
+#dc-load-forecast/
 ├── README.md
 ├── requirements.txt
 ├── Makefile
@@ -29,3 +29,12 @@ dc-load-forecast/
 │   └── assumptions_register.csv
 └── prompts/
     └── extraction_prompt.md
+
+all: ingest baseline pipeline mc model sens bench
+ingest: ; python src/01_ingest_load.py && python src/02_ingest_weather.py
+baseline: ; python src/03_baseline_forecast.py
+pipeline: ; python src/04_pipeline_extract.py && python src/05_pipeline_probability.py
+mc: ; python src/06_monte_carlo.py
+model: ; python src/07_capital_rate_model.py
+sens: ; python src/08_sensitivity.py
+bench: ; python src/09_benchmark.py
