@@ -1,0 +1,3 @@
+source,vintage,metric,zone,year,value_mw,url,note
+PJM 2026 Load Forecast (derived),2026,summer_peak,DOM,2030,31095,https://www.pjm.com/-/media/DotCom/library/reports-notices/load-forecast/2026-load-report.pdf,"Author's calculation: 2025 actual DOM summer peak 23,905 MW (EIA) grown at PJM's 5.4%/yr DOM 10-year rate; replace with Table B-1 value"
+PJM 2026 Load Forecast (derived),2026,summer_peak,DOM,2035,40448,https://www.pjm.com/-/media/DotCom/library/reports-notices/load-forecast/2026-load-report.pdf,"Author's calculation: 2025 actual DOM summer peak 23,905 MW (EIA) grown at PJM's 5.4%/yr DOM 10-year rate; replace with Table B-1 value"
