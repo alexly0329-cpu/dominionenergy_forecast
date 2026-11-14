@@ -1,0 +1,6 @@
+year,dc_connected_mw,source,source_url,note
+2018,0,Definition (additions measured from end of 2018),,Data centers connected before 2019 stay inside organic load as a constant; only additions since 2019 are removed
+2022,3067,"Swinhoe (DCD), author's calculation: >4,000 MW connected 2019-2023 minus 933 MW connected in 2023",https://www.datacenterdynamics.com/en/news/dominion-connected-15-data-centers-totaling-933mw-in-virginia-in-2023-15-more-expected-in-2024/,Lower bound (source says 'more than 4GW')
+2023,4000,"Swinhoe (DCD): 94 data centers, more than 4 GW connected 2019-2023",https://www.datacenterdynamics.com/en/news/dominion-connected-15-data-centers-totaling-933mw-in-virginia-in-2023-15-more-expected-in-2024/,Lower bound
+2024,4933,"ESTIMATE: 2023 pace (933 MW, 15 data centers) carried forward; Swinhoe (DCD) reports 15 more expected in 2024",https://www.datacenterdynamics.com/en/news/dominion-connected-15-data-centers-totaling-933mw-in-virginia-in-2023-15-more-expected-in-2024/,"ESTIMATE, replace with Dominion Q4 2024 earnings figure; cumulative = 4000 + 933"
+2025,5866,"ESTIMATE: 2023 pace (933 MW per year) carried forward",,"ESTIMATE, replace with Dominion Q4 2025 earnings figure; cumulative = 4933 + 933"
